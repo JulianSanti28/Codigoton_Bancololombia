@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="https://test.evalartapp.com/extapiquest/code_decrypt/QzEwMTA0" uri="xml-resources/web-service-references/QzEwMTA0/wsdl/test.evalartapp.com/extapiquest/code_decrypt/qzewmta0"/>
+    <system systemId="https://test.evalartapp.com/extapiquest/code_decrypt/" uri="xml-resources/web-service-references/WsClient/wsdl/test.evalartapp.com/extapiquest/code_decrypt/index"/>
+</catalog>
