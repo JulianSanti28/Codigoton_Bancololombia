@@ -76,7 +76,7 @@ public class AsignarMesas {
      */
     private Mesa generarMesaFiltros(String nombre_mesa, String query) throws SQLException, IOException {
 
-        //System.out.println(query);
+        
         HashMap<Integer, String> map = new HashMap<>(); //Map Hash para validar que no ingresen clientes de la misma compania
         this.cantidad_filas = 0; //Inicializa la cantidas de filas en 0 para cada consulta
         this.LstClientes = new Stack<Cliente>(); // Lista para guardar los clientes de cada mesa
@@ -118,7 +118,7 @@ public class AsignarMesas {
             this.cantidad_filas += 1; //Incrementa el número de filas de la consulta
         }
 
-        Mesa M = new Mesa(nombre_mesa, this.LstClientes); //Se crea la misa con su respectiva lista de clientes
+        Mesa M = new Mesa(nombre_mesa, this.LstClientes); //Se crea la mesa con su respectiva lista de clientes
         return M;//Se retorna el objeto Mesa creado
     }
 
