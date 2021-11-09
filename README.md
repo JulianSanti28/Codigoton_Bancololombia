@@ -1,7 +1,7 @@
 # Codigoton_Bancololombia
 ### Reto Codigotón Bancolombia
 
-###Contexto El objetivo de este reto técnico es desarrollar una solución en Java aplicando conceptos fundamentales de programación
+### Contexto El objetivo de este reto técnico es desarrollar una solución en Java aplicando conceptos fundamentales de programación
 
 ### Descripción Asignar clientes a diferentes mesas que exigen ciertos filtros para la asignación. Además se debe consumir un web service para desencriptar algunos códigos de los clientes. Se hace uso de una base de datos en el motor MySQL
 
